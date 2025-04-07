@@ -5,7 +5,7 @@ FROM eclipse-temurin:17-jdk-alpine
 WORKDIR /app
 
 # Copia o .jar para o container
-COPY producao.jar app.jar
+COPY aulao1-0.0.1-SNAPSHOT.jar app.jar
 
 # Expõe a porta (Render cuida disso com a variável PORT)
 EXPOSE 8080
